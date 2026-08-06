@@ -1415,7 +1415,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at -12.7 -6.35 0)
 				(length 5.08)
 				(name "GND"

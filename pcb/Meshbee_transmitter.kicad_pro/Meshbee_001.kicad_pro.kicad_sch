@@ -1705,10 +1705,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 24.13 180)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
 					(length 5.08)
-					(name "3V"
+					(name "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1724,9 +1724,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 21.59 180)
+					(at 12.7 -3.81 180)
 					(length 5.08)
-					(name "22"
+					(name "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1742,9 +1742,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 19.05 180)
+					(at 12.7 -1.27 180)
 					(length 5.08)
-					(name "19"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1760,9 +1760,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 16.51 180)
+					(at 12.7 1.27 180)
 					(length 5.08)
-					(name "23"
+					(name "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1778,9 +1778,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 13.97 180)
+					(at 12.7 3.81 180)
 					(length 5.08)
-					(name "18"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,9 +1796,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 11.43 180)
+					(at 12.7 6.35 180)
 					(length 5.08)
-					(name "5"
+					(name "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1832,9 +1832,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 6.35 180)
+					(at 12.7 11.43 180)
 					(length 5.08)
-					(name "16"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1850,9 +1850,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 3.81 180)
+					(at 12.7 13.97 180)
 					(length 5.08)
-					(name "4"
+					(name "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1868,9 +1868,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 1.27 180)
+					(at 12.7 16.51 180)
 					(length 5.08)
-					(name "0"
+					(name "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1886,9 +1886,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -1.27 180)
+					(at 12.7 19.05 180)
 					(length 5.08)
-					(name "2"
+					(name "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1904,9 +1904,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -3.81 180)
+					(at 12.7 21.59 180)
 					(length 5.08)
-					(name "15"
+					(name "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1921,10 +1921,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
+				(pin power_out line
+					(at 12.7 24.13 180)
 					(length 5.08)
-					(name "13"
+					(name "3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3869,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 146.05) (xy 234.95 203.2)
+			(xy 234.95 146.05) (xy 234.95 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4599,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 138.43) (xy 227.33 210.82)
+			(xy 227.33 138.43) (xy 227.33 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4849,16 +4849,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 210.82) (xy 189.23 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62cab933-30a5-4a8c-8212-e982f49e7a0f")
-	)
-	(wire
-		(pts
 			(xy 148.59 194.31) (xy 148.59 231.14)
 		)
 		(stroke
@@ -5059,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 205.74) (xy 229.87 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af9bf21-77e7-42b5-a0ea-1b4d9c1531bc")
+	)
+	(wire
+		(pts
 			(xy 162.56 152.4) (xy 162.56 154.94)
 		)
 		(stroke
@@ -5136,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "828ca652-b16a-40df-b433-47f0ab2b60dd")
+	)
+	(wire
+		(pts
+			(xy 189.23 203.2) (xy 227.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834d29b5-f5eb-41d1-ac59-ff2746765803")
 	)
 	(wire
 		(pts
@@ -5236,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "8e0ea310-2c5a-4485-b1c9-2856f34c39d3")
-	)
-	(wire
-		(pts
-			(xy 229.87 208.28) (xy 189.23 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90127f19-283b-4aa4-9015-886218fe5f8b")
 	)
 	(wire
 		(pts
@@ -5356,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "9a18f6bd-eff9-4a97-915e-84a7c726cb84")
+	)
+	(wire
+		(pts
+			(xy 189.23 210.82) (xy 234.95 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a81c1b7-1c65-45ac-9b0a-0cf72831b56b")
 	)
 	(wire
 		(pts
@@ -5999,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 140.97) (xy 229.87 208.28)
+			(xy 229.87 140.97) (xy 229.87 205.74)
 		)
 		(stroke
 			(width 0)
@@ -6026,16 +6036,6 @@
 			(type default)
 		)
 		(uuid "d8a5d2bc-d2a3-4df7-8bff-f5bb334f0963")
-	)
-	(wire
-		(pts
-			(xy 234.95 203.2) (xy 189.23 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daacc0f9-8b28-4243-a407-f8938175823a")
 	)
 	(wire
 		(pts
@@ -6219,6 +6219,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 208.28) (xy 232.41 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb264958-147e-4c58-a9a0-16f1606443d7")
+	)
+	(wire
+		(pts
 			(xy 153.67 240.03) (xy 153.67 246.38)
 		)
 		(stroke
@@ -6269,16 +6279,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 205.74) (xy 189.23 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f302af96-c2f5-4d82-b990-5753551b0d6c")
-	)
-	(wire
-		(pts
 			(xy 332.74 149.86) (xy 332.74 162.56)
 		)
 		(stroke
@@ -6299,7 +6299,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 143.51) (xy 232.41 205.74)
+			(xy 232.41 143.51) (xy 232.41 208.28)
 		)
 		(stroke
 			(width 0)

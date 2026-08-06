@@ -821,10 +821,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 24.13 180)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
 					(length 5.08)
-					(name "3V"
+					(name "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -840,9 +840,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 21.59 180)
+					(at 12.7 -3.81 180)
 					(length 5.08)
-					(name "22"
+					(name "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -858,9 +858,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 19.05 180)
+					(at 12.7 -1.27 180)
 					(length 5.08)
-					(name "19"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -876,9 +876,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 16.51 180)
+					(at 12.7 1.27 180)
 					(length 5.08)
-					(name "23"
+					(name "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -894,9 +894,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 13.97 180)
+					(at 12.7 3.81 180)
 					(length 5.08)
-					(name "18"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -912,9 +912,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 11.43 180)
+					(at 12.7 6.35 180)
 					(length 5.08)
-					(name "5"
+					(name "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -948,9 +948,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 6.35 180)
+					(at 12.7 11.43 180)
 					(length 5.08)
-					(name "16"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -966,9 +966,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 3.81 180)
+					(at 12.7 13.97 180)
 					(length 5.08)
-					(name "4"
+					(name "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -984,9 +984,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 1.27 180)
+					(at 12.7 16.51 180)
 					(length 5.08)
-					(name "0"
+					(name "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1002,9 +1002,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -1.27 180)
+					(at 12.7 19.05 180)
 					(length 5.08)
-					(name "2"
+					(name "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1020,9 +1020,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -3.81 180)
+					(at 12.7 21.59 180)
 					(length 5.08)
-					(name "15"
+					(name "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1037,10 +1037,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -6.35 180)
+				(pin power_out line
+					(at 12.7 24.13 180)
 					(length 5.08)
-					(name "13"
+					(name "3V"
 						(effects
 							(font
 								(size 1.27 1.27)
