@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-08-05T07:34:12+02:00"
+    "CreationDate": "2026-08-09T19:09:27+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Meshbee_001.kicad_pro",
       "GUID": "4d657368-6265-4655-9f30-30312e6b6963",
-      "Revision": "1.0"
+      "Revision": "1.0.1"
     },
     "Size": {
       "X": 42.55,
