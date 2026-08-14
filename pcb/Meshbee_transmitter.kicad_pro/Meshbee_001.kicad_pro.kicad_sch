@@ -6429,7 +6429,7 @@
 		)
 		(uuid "392f72d9-8d28-44c8-b15f-e86d4e44645e")
 	)
-	(label "S2"
+	(label "S1"
 		(at 191.77 205.74 0)
 		(effects
 			(font
@@ -6479,7 +6479,7 @@
 		)
 		(uuid "57796232-ef0d-4adc-991d-f7add4002854")
 	)
-	(label "S3"
+	(label "S0"
 		(at 191.77 203.2 0)
 		(effects
 			(font
@@ -6499,7 +6499,7 @@
 		)
 		(uuid "6286fe56-3caf-4fd8-9c26-cd4c109a9404")
 	)
-	(label "S0"
+	(label "S3"
 		(at 191.77 210.82 0)
 		(effects
 			(font
@@ -6559,7 +6559,7 @@
 		)
 		(uuid "a5f88a71-a25f-49e8-8577-c00c7106e0aa")
 	)
-	(label "S1"
+	(label "S2"
 		(at 191.77 208.28 0)
 		(effects
 			(font
